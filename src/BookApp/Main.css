@@ -1,0 +1,44 @@
+.main-container {
+  /* border: 3px solid red; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current,
+.want,
+.read {
+  border-bottom: 1px solid grey;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.category-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.book {
+  padding: 10px 20px;
+  position: relative;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
